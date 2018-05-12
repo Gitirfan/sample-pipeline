@@ -16,5 +16,5 @@ node
     sh "echo ansible"
     
     stage 'approval'
-    input 'Do you want to continue
+    input 'Do you want to continue'
 }
