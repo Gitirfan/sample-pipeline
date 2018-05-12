@@ -1,17 +1,17 @@
 node
 {
     stage 'download_from_github'
-    sh 'echo download'
+    sh "echo download"
     
     stage 'execute_tests'
-    sh 'echo test'
+    sh "echo test"
     
     stage 'package'
-    sh 'echo package'
+    sh "echo package"
     
     stage 'deploy'
-    sh 'echo deploy'
+    sh "echo deploy"
     
     stage 'executeansible'
-    sh 'echo ansible'
+    sh "echo ansible"
 }
