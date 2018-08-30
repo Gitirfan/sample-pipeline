@@ -14,4 +14,7 @@ node
     
     stage 'executeansible'
     sh "echo ansible"
+    
+    stage 'approval'
+    input 'Do you want to continue'
 }
